@@ -5,5 +5,4 @@ from wtforms.fields import StringField, PasswordField, BooleanField, SubmitField
 class HatData(FlaskForm):
     firstName = StringField()
     lastName = StringField()
-    job = StringField()
     submit = SubmitField()
