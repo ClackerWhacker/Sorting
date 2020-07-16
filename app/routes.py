@@ -18,6 +18,6 @@ def result():
     return render_template("result.html", house=house)
 
 def sortingThis():
-    l1 = ["Euro","Atlas", "Bubblegump", "Harazuh"]
+    l1 = ["Euro", "Orion", "Bubblegump", "Harazuh"]
     index = random.randint(0, 3)
     return l1[index]
